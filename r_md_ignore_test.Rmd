@@ -1,0 +1,15 @@
+---
+title: "wk4_rmd"
+author: '00'
+date: "2021/10/27"
+output: html_document
+---
+
+```{r}
+library(raster)
+library(here)
+jan<-raster(here("data", "wc2.1_5m_tavg_01.tif"))
+# have a look at the raster layer jan
+plot(jan)
+```
+
